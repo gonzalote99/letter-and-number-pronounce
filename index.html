@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title>letter and number pronounce</title>
+</head>
+<body>
+    <audio preload="auto">
+     <source id="oggSource" src="sounds/ogg/like-glass.ogg" type="audio/ogg">
+     <source id="mp3Source" src="sounds/ogg/like-glass.mp3" type="audio/mp3">
+     using modern browser
+      
+    </audio>
+    <div class="main-cont">
+     <div id="about-cont">
+     <div class="content-wrapper">
+    <div class="about-white-bg">
+     <h2 class="about-title">letter and number pronunce</h2>
+     <div class="about-image"></div>
+     <p class="about-text">
+       type number or letter to hear
+     </p>
+     <hr>
+     <button id="hide-button" type="button" name="button">hide</button>
+    </div>
+     </div>
+     </div>
+     <div class="char-cont">
+      <p id="big-char" class="char animationHabibi" >
+     type letter o number
+      </p>
+      <button id="show-keyboard-button" class="habibi-button" type="button" name="button" >show keyboard</button>
+      <input id="mobile-text-input" type="text" name="name" value="abc" />
+     </div>
+     <footer>
+      <button id="mute-button" class="habibi-button" type="button">mute sounds</button>
+      <button id="about-button" class="habibi-button" type="button" name="button" >about</button>
+     </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
